@@ -1,0 +1,5 @@
+run "Get-Process" in powershell
+
+
+stop process
+Stop-process -name 'PulseSetupClient' -Force
